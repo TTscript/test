@@ -31,7 +31,7 @@ function backToTop() {
           upBtn.style.position = 'absolute';
         } else {
           upBtn.style.top = 'unset';
-          upBtn.style.bottom = '30px';
+          upBtn.style.bottom = '130px';
           upBtn.style.position = 'fixed';
         }
       });
