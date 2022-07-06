@@ -1,0 +1,55 @@
+.up-btn {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 52px;
+  background-color: $color-dodger-blue;
+  border-radius: 50%;
+  text-align: right;
+  width: 61px;
+  height: 61px;
+  z-index: 999;
+  box-shadow: 0 4px 15px 0 $color-button-shadow;
+  margin: 0;
+  padding: 0;
+  transition: opacity $trans-default;
+
+  @include no-touch {
+    &:hover,
+    &:focus {
+      background-color: $color-endeavour;
+      transition: background-color $trans-default;
+    }
+
+    @keyframes show-button {
+      0% {
+        bottom: 1000px;
+        transform: scale(3.3);
+      }
+
+      100% {
+        bottom: 30px;
+        transform: scale(1);
+      }
+    }
+  }
+
+  @include vp-1023 {
+    right: 21px;
+    padding: 0;
+  }
+}
+
+.up-btn--appear {
+  opacity: 1;
+  animation: show-button 1s ease forwards;
+}
+
+.up-btn svg {
+  fill: transparent;
+  pointer-events: none;
+}
+
+

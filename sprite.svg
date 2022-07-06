@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="158px" height="71px" viewBox="0 0 158 71" enable-background="new 0 0 158 71" xml:space="preserve">  <image id="image0" width="158" height="71" x="0" y="0"
-    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAABHCAYAAAD2tP6cAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 33" id="arrow-up">
+    <path d="M15.5 30.0557L15.5 3.18457" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.0917 15.8201L15.4999 2.94434L2.9082 15.8201" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" enable-background="new 0 0 158 71" xml:space="preserve" viewBox="0 0 158 71">
+    <image id="image0" width="158" height="71" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAABHCAYAAAD2tP6cAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAA
 CXBIWXMAAAsTAAALEwEAmpwYAAAcwElEQVR42u2deXwV1fn/38/M3Jt9IQES9i0QiBAWsbYuFVu/
 Vam1fhUibhUXoEBBQHChSLwguIH4VUTZCtZf1QbB2qq1agtqKxVBIAGEJKwJCQgJBLLc3Htnzu+P
@@ -134,5 +137,6 @@ FDUlUjgwD724pgQtMfPRk/9h6CiTy9FSbWPw2m/Q87Zr0UsUH0BbptloqbiNI/PFG9AzFUVonTEG
 behsA9ZxDoRFNaLuaM7RC7TDOKJHhdItjtatYjiyBDEu+DcWrfeF1bgmtDg7giOzKqE4vega11vB
 9HC0tItDS+KwGmkxNa5vaEd5IxrRiEY04oLF/wfuIuz+62aJvAAAACV0RVh0ZGF0ZTpjcmVhdGUA
 MjAyMi0wNy0wNVQxNjozMzo1NyswMDowMNDTKmwAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDct
-MDVUMTY6MzM6NTcrMDA6MDChjpLQAAAAAElFTkSuQmCC" />
+MDVUMTY6MzM6NTcrMDA6MDChjpLQAAAAAElFTkSuQmCC"></image>
+  </symbol>
 </svg>
