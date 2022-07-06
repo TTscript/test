@@ -23,18 +23,6 @@
       background-color: $color-endeavour;
       transition: background-color $trans-default;
     }
-
-    @keyframes show-button {
-      0% {
-        bottom: 1000px;
-        transform: scale(3.3);
-      }
-
-      100% {
-        bottom: 70px;
-        transform: scale(1);
-      }
-    }
   }
 
   @include vp-1023 {
@@ -46,6 +34,18 @@
 .up-btn--appear {
   opacity: 1;
   animation: show-button 1s ease forwards;
+}
+
+@keyframes show-button {
+  0% {
+    bottom: 1000px;
+    transform: scale(3.3);
+  }
+
+  100% {
+    bottom: 70px;
+    transform: scale(1);
+  }
 }
 
 .up-btn svg {
