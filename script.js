@@ -27,11 +27,11 @@ function backToTop() {
         }
         if (window.pageYOffset >= border) {
           upBtn.style.bottom = 'unset';
-          upBtn.style.top = `${body.offsetHeight - footer - header - upBtn.offsetHeight - 30}px`;
+          upBtn.style.top = `${body.offsetHeight - footer - header - upBtn.offsetHeight - 70}px`;
           upBtn.style.position = 'absolute';
         } else {
           upBtn.style.top = 'unset';
-          upBtn.style.bottom = '50px';
+          upBtn.style.bottom = '70px';
           upBtn.style.position = 'fixed';
         }
       });
